@@ -2,5 +2,5 @@
 document.querySelector('input[type="button"]').addEventListener('click',(e)=>{
 	let scolor = document.getElementById('colorSelect')
 	if(scolor.selectedIndex !== -1)
-	scolor.remove(scolor.value)
+	scolor.remove(scolor.selectedIndex)
 })
